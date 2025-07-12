@@ -1,0 +1,103 @@
+/*
+ * Premium Animations for Chembotwe Mattresses
+ * Version: 1.0.0
+ * Description: A dedicated stylesheet for creating a royal and premium scroll animation experience.
+ * This file provides a suite of elegant, non-random animations to be triggered on scroll.
+*/
+
+/*
+    Initial State
+    - All elements targeted for animation will start as invisible and slightly offset.
+    - The 'will-change' property is a performance hint for the browser.
+*/
+[data-animation] {
+    opacity: 0;
+    transition: opacity 0.8s cubic-bezier(0.165, 0.84, 0.44, 1), transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+    will-change: transform, opacity;
+}
+
+/*
+    Visible State
+    - When the 'is-visible' class is added by JavaScript, the element animates to its final state.
+*/
+[data-animation].is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+/*
+    Animation Definitions
+    - Each data-animation attribute corresponds to a specific transform.
+*/
+
+/* Fade In (No movement) */
+[data-animation="fade-in"] {
+    opacity: 0;
+}
+
+/* Fade In Up */
+[data-animation="fade-in-up"] {
+    transform: translateY(60px);
+}
+
+/* Fade In Down */
+[data-animation="fade-in-down"] {
+    transform: translateY(-60px);
+}
+
+/* Fade In Left */
+[data-animation="fade-in-left"] {
+    transform: translateX(-80px);
+}
+
+/* Fade In Right */
+[data-animation="fade-in-right"] {
+    transform: translateX(80px);
+}
+
+/* Gentle Zoom In */
+[data-animation="zoom-in"] {
+    transform: scale(0.9);
+}
+
+/* Gentle Zoom Out */
+[data-animation="zoom-out"] {
+    transform: scale(1.1);
+}
+
+/* Slide Up Reveal */
+[data-animation="slide-up-reveal"] {
+    transform: translateY(100%);
+}
+
+/* Staggered Animations
+   - For child elements within a container that has a data-stagger attribute.
+   - Delays are applied via inline style from JavaScript.
+*/
+[data-stagger] > * {
+    transition-delay: var(--stagger-delay, 0s);
+}
+
+/* Specific Section Animation Styles */
+
+/* Products Section: Product cards animation */
+.products-grid .product-card[data-animation] {
+    transition-duration: 0.6s;
+}
+
+/* Testimonials Section: Cards animation */
+.testimonials-grid .testimonial-card[data-animation] {
+    transition-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* About Section: Stats counter animation */
+.about-stats .stat-item[data-animation] {
+    transition-duration: 1s;
+}
+
+/* Benefits Section: Cards animation */
+.benefits-grid .benefit-card[data-animation] {
+    transform: scale(0.95) translateY(20px);
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-duration: 1s;
+}
