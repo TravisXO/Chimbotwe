@@ -3,926 +3,895 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chembotwe Mattresses & General Dealers - Lusaka's premier destination for luxury mattresses, beds, and sleep solutions. Premium quality, expert service, lifetime comfort guarantee.">
-    <meta name="keywords" content="luxury mattresses, premium beds, sleep solutions, Lusaka Zambia, high-end furniture, comfort guarantee, Chembotwe">
-    <meta name="author" content="Chembotwe Mattresses & General Dealers">
+    <meta name="description" content="Chimbotwe Mattresses & General Dealers - Lusaka's premier destination for luxury mattresses, beds, and sleep solutions. Premium quality, expert service, lifetime comfort guarantee.">
+    <meta name="keywords" content="luxury mattresses, premium beds, sleep solutions, Lusaka Zambia, high-end furniture, comfort guarantee, Chimbotwe">
+    <meta name="author" content="Chimbotwe Mattresses & General Dealers">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Chembotwe Mattresses | Premier Sleep Solutions in Lusaka">
+    <meta property="og:title" content="Chimbotwe Mattresses | Premier Sleep Solutions in Lusaka">
     <meta property="og:description" content="Experience luxury sleep with our premium mattress collection. Serving Lusaka with excellence.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://chembotwe-mattresses.com">
-    <meta name="theme-color" content="#2C3E50">
+    <meta property="og:url" content="https://chimbotwe-mattresses.com">
+    <meta name="theme-color" content="#1a365d">
 
-    <title>Chembotwe Mattresses & General Dealers | Premier Sleep Solutions in Lusaka</title>
+    <title>Chimbotwe Mattresses & General Dealers | Premier Sleep Solutions in Lusaka</title>
 
-    <!-- Preload Critical Resources -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
-
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="premium-animations.css">
-
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Chembotwe Mattresses & General Dealers",
-            "description": "Premier mattress and furniture store in Lusaka, Zambia, offering luxury sleep solutions.",
-            "telephone": "+260966100125",
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Bauleni",
-                "addressLocality": "Lusaka",
-                "addressCountry": "ZM"
-            },
-            "openingHours": "Mo-Su 08:00-18:00",
-            "priceRange": "$$$",
-            "image": "carousel-item-1.jpeg"
-        }
-    </script>
 </head>
 <body>
-    <!-- Page Preloader -->
-    <div class="preloader" id="preloader">
-        <div class="preloader-content">
-            <div class="luxury-spinner">
-                <div class="spinner-ring"></div>
-                <div class="spinner-ring"></div>
-                <div class="spinner-ring"></div>
-            </div>
-            <h3>Chembotwe</h3>
-            <p>Loading luxury experience...</p>
-        </div>
-    </div>
-
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <div class="nav-brand">
-                <div class="brand-logo">
-                    <div class="logo-icon">
-                        <img src="logo.jpeg" alt="Chembotwe Logo" style="height: 40px; width: auto; border-radius: 50%;">
-                    </div>
-                    <div class="brand-text">
-                        <h2>Chembotwe</h2>
-                        <span>Mattresses & General Dealers</span>
-                    </div>
+    <nav class="navbar navbar-expand-lg fixed-top luxury-nav" id="navbar">
+        <div class="container">
+            <a class="navbar-brand luxury-brand" href="#home">
+                <img src="logo.jpeg" alt="Chimbotwe Logo" class="brand-logo">
+                <div class="brand-text">
+                    <h5 class="mb-0">Chimbotwe</h5>
+                    <small>Mattresses & General Dealers</small>
                 </div>
-            </div>
+            </a>
 
-            <div class="nav-toggle" id="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <button class="navbar-toggler luxury-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
+            </button>
 
-            <ul class="nav-menu" id="nav-menu">
-                <li><a href="#home" class="nav-link active">Home</a></li>
-                <li class="nav-dropdown">
-                    <a href="#products" class="nav-link">Products <span class="dropdown-arrow">▼</span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#mattresses"><span class="menu-icon">🛏️</span>Premium Mattresses</a></li>
-                        <li><a href="#beds"><span class="menu-icon">🏠</span>Luxury Beds & Sets</a></li>
-                        <li><a href="#pillows"><span class="menu-icon">🪶</span>Designer Pillows</a></li>
-                        <li><a href="#accessories"><span class="menu-icon">✨</span>Sleep Accessories</a></li>
-                    </ul>
-                </li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-                <li class="nav-cta-container">
-                    <a href="tel:+260966100125" class="nav-cta">
-                        <span class="cta-icon">📞</span>
-                        <span>Call Now</span>
-                    </a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home"><i class="bi bi-house"></i> Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#products" data-bs-toggle="dropdown">
+                            <i class="bi bi-grid"></i> Products
+                        </a>
+                        <ul class="dropdown-menu luxury-dropdown">
+                            <li><a class="dropdown-item" href="#mattresses"><i class="bi bi-collection"></i> Premium Mattresses</a></li>
+                            <li><a class="dropdown-item" href="#beds"><i class="bi bi-house-door"></i> Luxury Beds</a></li>
+                            <li><a class="dropdown-item" href="#pillows"><i class="bi bi-circle"></i> Designer Pillows</a></li>
+                            <li><a class="dropdown-item" href="#accessories"><i class="bi bi-star"></i> Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about"><i class="bi bi-info-circle"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials"><i class="bi bi-chat-quote"></i> Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="bi bi-telephone"></i> Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn luxury-cta" href="tel:+260966100125">
+                            <i class="bi bi-telephone-fill"></i> Call Now
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero" style="height: 100vh;">
-        <!-- Animated Background Elements -->
-        <div class="hero-bg-animation">
-            <div class="floating-element" style="--delay: 0s"></div>
-            <div class="floating-element" style="--delay: 2s"></div>
-            <div class="floating-element" style="--delay: 4s"></div>
-        </div>
-
-        <!-- Hero Carousel -->
-        <div class="hero-carousel">
-            <div class="carousel-item active" data-bg="luxury">
-                <img src="carousel-item-1.jpeg" alt="Premium Luxury Mattresses" loading="eager">
-                <div class="carousel-content">
-                    <span class="carousel-subtitle">Experience Luxury</span>
-                    <h2>Premium Sleep Solutions</h2>
-                </div>
-            </div>
-            <div class="carousel-item" data-bg="comfort">
-                <img src="carousel-item-2.jpeg" alt="Ultimate Comfort Beds" loading="lazy">
-                <div class="carousel-content">
-                    <span class="carousel-subtitle">Ultimate Comfort</span>
-                    <h2>Handcrafted Excellence</h2>
-                </div>
-            </div>
-            <div class="carousel-item" data-bg="elegance">
-                <img src="carousel-item-3.jpeg" alt="Elegant Sleep Accessories" loading="lazy">
-                <div class="carousel-content">
-                    <span class="carousel-subtitle">Elegant Design</span>
-                    <h2>Complete Sleep Experience</h2>
-                </div>
-            </div>
-
-            <!-- Enhanced Carousel Navigation -->
-            <div class="carousel-nav">
-                <button class="carousel-btn prev" onclick="changeSlide(-1)" aria-label="Previous slide">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z" />
-                    </svg>
-                </button>
-                <button class="carousel-btn next" onclick="changeSlide(1)" aria-label="Next slide">
-                    <svg viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
-                    </svg>
-                </button>
-            </div>
-
-            <!-- Enhanced Carousel Indicators -->
+    <section id="home" class="hero-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
             <div class="carousel-indicators">
-                <button class="indicator active" onclick="currentSlide(1)" aria-label="Go to slide 1"></button>
-                <button class="indicator" onclick="currentSlide(2)" aria-label="Go to slide 2"></button>
-                <button class="indicator" onclick="currentSlide(3)" aria-label="Go to slide 3"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
             </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carousel-item-1.jpeg" class="d-block w-100" alt="Premium Luxury Mattresses">
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel-item-2.jpeg" class="d-block w-100" alt="Ultimate Comfort Beds">
+                    <div class="carousel-overlay"></div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel-item-3.jpeg" class="d-block w-100" alt="Elegant Sleep Accessories">
+                    <div class="carousel-overlay"></div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <i class="bi bi-chevron-right"></i>
+            </button>
         </div>
 
-        <div class="hero-overlay"></div>
         <div class="hero-content">
             <div class="container">
-                <div class="hero-badge">
-                    <span class="badge-icon">👑</span>
-                    <span>Lusaka's Premier Sleep Destination</span>
-                </div>
-
-                <h1 class="hero-title">
-                    <span class="title-line">Transform Your Sleep</span>
-                    <span class="title-highlight">Into Pure Luxury</span>
-                </h1>
-
-                <p class="hero-subtitle">
-                    Discover our exclusive collection of premium mattresses, luxury beds, and designer sleep accessories.
-                    Where comfort meets elegance in the heart of Lusaka.
-                </p>
-
-                <div class="hero-cta">
-                    <a href="#products" class="btn btn-primary btn-luxury">
-                        <span>Explore Collection</span>
-                        <svg class="btn-arrow" viewBox="0 0 24 24">
-                            <path d="M5 12h14m-7-7l7 7-7 7" />
-                        </svg>
-                    </a>
-                    <a href="https://wa.me/260966100125" class="btn btn-secondary btn-luxury">
-                        <span class="whatsapp-icon">💬</span>
-                        <span>WhatsApp Consultation</span>
-                    </a>
-                </div>
-
-                <div class="hero-features">
-                    <div class="feature-item">
-                        <div class="feature-icon">🚚</div>
-                        <div class="feature-text">
-                            <strong>Free Luxury Delivery</strong>
-                            <span>White-glove service</span>
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <div class="luxury-badge mb-4">
+                            <i class="bi bi-crown"></i>
+                            <span>Lusaka's Premier Sleep Destination</span>
                         </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">🛡️</div>
-                        <div class="feature-text">
-                            <strong>Lifetime Warranty</strong>
-                            <span>Peace of mind guarantee</span>
+
+                        <h1 class="hero-title mb-4">
+                            <span class="title-line">Transform Your Sleep</span>
+                            <span class="title-highlight">Into Pure Luxury</span>
+                        </h1>
+
+                        <p class="hero-subtitle mb-5">
+                            Discover our exclusive collection of premium mattresses, luxury beds, and designer sleep accessories.
+                            Where comfort meets elegance in the heart of Lusaka.
+                        </p>
+
+                        <div class="hero-cta mb-5">
+                            <a href="#products" class="btn luxury-btn-primary me-3">
+                                <i class="bi bi-collection"></i> Explore Collection
+                            </a>
+                            <a href="https://wa.me/260966100125" class="btn luxury-btn-secondary">
+                                <i class="bi bi-whatsapp"></i> WhatsApp Consultation
+                            </a>
                         </div>
-                    </div>
-                    <div class="feature-item">
-                        <div class="feature-icon">💎</div>
-                        <div class="feature-text">
-                            <strong>Premium Quality</strong>
-                            <span>Handpicked excellence</span>
+
+                        <div class="row hero-features">
+                            <div class="col-md-4 mb-3">
+                                <div class="feature-item">
+                                    <i class="bi bi-truck"></i>
+                                    <h6>Free Luxury Delivery</h6>
+                                    <small>White-glove service</small>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="feature-item">
+                                    <i class="bi bi-shield-check"></i>
+                                    <h6>Lifetime Warranty</h6>
+                                    <small>Peace of mind guarantee</small>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="feature-item">
+                                    <i class="bi bi-gem"></i>
+                                    <h6>Premium Quality</h6>
+                                    <small>Handpicked excellence</small>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Scroll Indicator -->
         <div class="scroll-indicator">
-            <div class="scroll-text">Scroll to explore</div>
-            <div class="scroll-arrow"></div>
+            <i class="bi bi-chevron-down"></i>
         </div>
     </section>
 
-    <!-- Luxury Banner Section -->
     <section class="banner-section">
-        <div class="banner-container">
-            <div class="banner-image">
-                <img src="banner-item-1.jpeg" alt="Exclusive Limited Time Offers" loading="lazy">
-                <div class="image-overlay"></div>
-            </div>
-            <div class="banner-content">
-                <div class="banner-badge">
-                    <span class="badge-icon">🏆</span>
-                    <span>Exclusive Offer</span>
-                </div>
-                <h2>Limited Time Luxury Sale</h2>
-                <p>Discover exceptional savings on our premium collection. Transform your bedroom into a sanctuary of comfort with our handpicked luxury mattresses and designer furniture.</p>
-                <div class="banner-stats">
-                    <div class="stat">
-                        <span class="stat-number">30%</span>
-                        <span class="stat-label">Off Premium Sets</span>
-                    </div>
-                    <div class="stat">
-                        <span class="stat-number">Free</span>
-                        <span class="stat-label">Installation</span>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="banner-image">
+                        <img src="banner-item-1.jpeg" alt="Exclusive Limited Time Offers" class="img-fluid rounded">
+                        <div class="image-shine"></div>
                     </div>
                 </div>
-                <a href="#products" class="btn btn-primary btn-luxury">
-                    <span>Shop Sale Now</span>
-                    <svg class="btn-arrow" viewBox="0 0 24 24">
-                        <path d="M5 12h14m-7-7l7 7-7 7" />
-                    </svg>
-                </a>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="banner-content">
+                        <div class="luxury-badge mb-3">
+                            <i class="bi bi-trophy"></i>
+                            <span>Exclusive Offer</span>
+                        </div>
+                        <h2 class="mb-3">Limited Time Luxury Sale</h2>
+                        <p class="mb-4">Discover exceptional savings on our premium collection. Transform your bedroom into a sanctuary of comfort with our handpicked luxury mattresses and designer furniture.</p>
+                        <div class="row banner-stats mb-4">
+                            <div class="col-6">
+                                <div class="stat-item">
+                                    <h3>30%</h3>
+                                    <small>Off Premium Sets</small>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="stat-item">
+                                    <h3>Free</h3>
+                                    <small>Installation</small>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#products" class="btn luxury-btn-primary">
+                            <i class="bi bi-bag-check"></i> Shop Sale Now
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Product Categories -->
     <section id="products" class="products-section">
         <div class="container">
-            <div class="section-header">
-                <div class="section-badge">
-                    <span class="badge-icon">✨</span>
+            <div class="text-center mb-5">
+                <div class="luxury-badge mb-3">
+                    <i class="bi bi-stars"></i>
                     <span>Our Collection</span>
                 </div>
-                <h2>Curated for Your Comfort</h2>
+                <h2 class="mb-3">Curated for Your Comfort</h2>
                 <p>Each piece in our collection is carefully selected for superior quality, exceptional comfort, and timeless design</p>
             </div>
 
-            <!-- Enhanced Category Filter -->
-            <div class="category-filter">
-                <button class="filter-btn active" data-category="all">
-                    <span class="filter-icon">🎯</span>
-                    <span>All Products</span>
-                    <span class="filter-count">22</span>
-                </button>
-                <button class="filter-btn" data-category="mattresses">
-                    <span class="filter-icon">🛏️</span>
-                    <span>Mattresses</span>
-                    <span class="filter-count">6</span>
-                </button>
-                <button class="filter-btn" data-category="beds">
-                    <span class="filter-icon">🏠</span>
-                    <span>Beds & Sets</span>
-                    <span class="filter-count">10</span>
-                </button>
-                <button class="filter-btn" data-category="pillows">
-                    <span class="filter-icon">🪶</span>
-                    <span>Pillows</span>
-                    <span class="filter-count">3</span>
-                </button>
-                <button class="filter-btn" data-category="accessories">
-                    <span class="filter-icon">✨</span>
-                    <span>Accessories</span>
-                    <span class="filter-count">3</span>
-                </button>
-            </div>
-
-            <!-- Enhanced Products Grid -->
-            <div class="products-grid" id="products-grid">
-                <!-- Product 1: Manal Quilted Bases King Size -->
-                <div class="product-card luxury-card" data-category="mattresses">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/manallady.jpeg" alt="Manal Quilted Bases King Size" loading="lazy">
-                        <div class="product-badge premium">Premium</div>
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('manal-quilted-king')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Manal Quilted Bases King Size')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★★</div><span class="rating-text">5.0</span></div>
+            <div class="category-filter mb-5">
+                <div class="row g-2 justify-content-center">
+                    <div class="col-auto">
+                        <button class="btn filter-btn active" data-filter="all">
+                            <i class="bi bi-grid"></i> All Products
+                        </button>
                     </div>
-                    <div class="product-info">
-                        <div class="product-category">Premium Mattresses</div>
-                        <h3>Manal Quilted Bases King Size</h3>
-                        <p class="product-description">Luxurious quilted king mattress with premium comfort layers for an unparalleled sleep experience.</p>
-                        <div class="product-features"><span class="feature-tag">King Size</span><span class="feature-tag">Quilted Top</span><span class="feature-tag">10yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 12,500</span><span class="price-note">Free delivery included</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Manal Quilted Bases King Size')">Get Quote</button>
-                        </div>
+                    <div class="col-auto">
+                        <button class="btn filter-btn" data-filter="mattresses">
+                            <i class="bi bi-collection"></i> Mattresses
+                        </button>
                     </div>
-                </div>
-
-                <!-- Product 2: Manal Dunlop Queen Size -->
-                <div class="product-card luxury-card" data-category="mattresses">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Optmattress.jpeg" alt="Manal Dunlop Queen Size mattress" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('manal-dunlop-queen')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Manal Dunlop Queen Size')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.8</span></div>
+                    <div class="col-auto">
+                        <button class="btn filter-btn" data-filter="beds">
+                            <i class="bi bi-house-door"></i> Beds
+                        </button>
                     </div>
-                    <div class="product-info">
-                        <div class="product-category">Queen Mattresses</div>
-                        <h3>Manal Dunlop Queen Size</h3>
-                        <p class="product-description">Natural latex comfort with superior support, offering a perfect balance for restful nights.</p>
-                        <div class="product-features"><span class="feature-tag">Queen Size</span><span class="feature-tag">Natural Latex</span><span class="feature-tag">7yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 2,740</span><span class="price-note">Best value option</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Manal Dunlop Queen Size')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 3: Spring Mattress BD -->
-                <div class="product-card luxury-card" data-category="beds">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/ManalPromo.jpeg" alt="Spring Mattress BD" loading="lazy">
-                        <div class="product-badge new">New Arrival</div>
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('spring-mattress-bd')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Spring Mattress BD')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★★</div><span class="rating-text">4.9</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Complete Bed Sets</div>
-                        <h3>Spring Mattress BD</h3>
-                        <p class="product-description">Complete luxury bed set with premium spring system for robust support and comfort.</p>
-                        <div class="product-features"><span class="feature-tag">Complete Set</span><span class="feature-tag">Spring System</span><span class="feature-tag">8yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 13,000</span><span class="price-note">Installation included</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Spring Mattress BD')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 4: Manal King Size -->
-                <div class="product-card luxury-card" data-category="mattresses">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/mattress3.jpeg" alt="Manal King Size" loading="lazy">
-                        <div class="product-badge premium">Premium</div>
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('manal-king')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Manal King Size')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★★</div><span class="rating-text">5.0</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">King Mattresses</div>
-                        <h3>Manal King Size</h3>
-                        <p class="product-description">Ultimate luxury with advanced comfort technology and memory foam for a royal slumber.</p>
-                        <div class="product-features"><span class="feature-tag">King Size</span><span class="feature-tag">Memory Foam</span><span class="feature-tag">12yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 15,000</span><span class="price-note">Premium collection</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Manal King Size')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 5: Urest 8inch Set -->
-                <div class="product-card luxury-card" data-category="beds">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/RedMattress1.1.jpeg" alt="Urest 8inch Set" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('urest-8inch')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Urest 8inch Set')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.7</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Complete Sets</div>
-                        <h3>Urest 8inch Set</h3>
-                        <p class="product-description">Complete comfort set with multiple color options to match any bedroom decor.</p>
-                        <div class="product-features"><span class="feature-tag">8-inch</span><span class="feature-tag">Complete Set</span><span class="feature-tag">5yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 3,100</span><span class="price-note">Great value</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Urest 8inch Set')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 6: Urest 6 inch Set -->
-                <div class="product-card luxury-card" data-category="beds">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Urest6inch.jpeg" alt="Urest 6 inch Set" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('urest-6inch')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Urest 6 inch Set')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.5</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Compact Sets</div>
-                        <h3>Urest 6 inch Set</h3>
-                        <p class="product-description">Space-saving comfort for smaller rooms without compromising on quality.</p>
-                        <div class="product-features"><span class="feature-tag">6-inch</span><span class="feature-tag">Lightweight</span><span class="feature-tag">3yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 2,850</span><span class="price-note">Budget friendly</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Urest 6 inch Set')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 7: Manal Continental Pillow -->
-                <div class="product-card luxury-card" data-category="pillows">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Pillow2.jpeg" alt="Manal Continental Pillow" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('manal-continental-pillow')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Manal Continental Pillow')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★★</div><span class="rating-text">4.9</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Premium Pillows</div>
-                        <h3>Manal Continental Pillow</h3>
-                        <p class="product-description">High-density support for superior neck comfort and a restful night's sleep.</p>
-                        <div class="product-features"><span class="feature-tag">Continental</span><span class="feature-tag">High-Density</span><span class="feature-tag">2yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 250</span><span class="price-note">Perfect comfort</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Manal Continental Pillow')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 8: 6 inch Cushions -->
-                <div class="product-card luxury-card" data-category="accessories">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/3cushion.jpeg" alt="6 inch Cushions" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('6inch-cushions')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('6 inch Cushions')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.3</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Seating Accessories</div>
-                        <h3>6 inch Cushions</h3>
-                        <p class="product-description">Comfortable seating cushions in various colors to brighten up any space.</p>
-                        <div class="product-features"><span class="feature-tag">6-inch</span><span class="feature-tag">Multi-Color</span><span class="feature-tag">1yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 85</span><span class="price-note">Affordable comfort</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('6 inch Cushions')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 9: Classic Comfort Double Bed -->
-                <div class="product-card luxury-card" data-category="beds">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Urestm-2.jpeg" alt="Classic comfort mattress & bed Double bed" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('classic-comfort-double')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Classic Comfort Double Bed')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.6</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Bed Sets</div>
-                        <h3>Classic Comfort Double Bed</h3>
-                        <p class="product-description">A timeless design offering classic comfort and durability for any bedroom.</p>
-                        <div class="product-features"><span class="feature-tag">Double Bed</span><span class="feature-tag">Classic Design</span><span class="feature-tag">5yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 7,500</span><span class="price-note">Timeless value</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Classic Comfort Double Bed')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 10: Urest Quilted Mattress & Bed -->
-                <div class="product-card luxury-card" data-category="beds">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/UrestKS.jpeg" alt="Urest Quilted Mattress & Bed" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('urest-quilted')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Urest Quilted Mattress & Bed')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.7</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">King Bed Sets</div>
-                        <h3>Urest Quilted Mattress & Bed</h3>
-                        <p class="product-description">A complete king-size set featuring a beautifully quilted mattress for added comfort.</p>
-                        <div class="product-features"><span class="feature-tag">King Size</span><span class="feature-tag">Quilted Set</span><span class="feature-tag">6yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 6,500</span><span class="price-note">Complete package</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Urest Quilted Mattress & Bed')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 11: Urest King Set -->
-                <div class="product-card luxury-card" data-category="beds">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/URestBlue.jpeg" alt="Urest king set" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('urest-king-set')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Urest King Set')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.6</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">King Bed Sets</div>
-                        <h3>Urest King Set</h3>
-                        <p class="product-description">Vibrant and comfortable king bed set available in stylish blue and green options.</p>
-                        <div class="product-features"><span class="feature-tag">King Size</span><span class="feature-tag">Multi-Color</span><span class="feature-tag">5yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 6,500</span><span class="price-note">Modern style</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Urest King Set')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 12: Manal 8 inch High Density -->
-                <div class="product-card luxury-card" data-category="beds">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Floral.jpeg" alt="Manal 8 inch High Density Bed & Mattress" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('manal-8inch-hd')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Manal 8 inch High Density')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.4</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Double Bed Sets</div>
-                        <h3>Manal 8 inch High Density</h3>
-                        <p class="product-description">A charming and durable high-density foam set with an elegant floral pattern.</p>
-                        <div class="product-features"><span class="feature-tag">8-inch HD</span><span class="feature-tag">Floral Design</span><span class="feature-tag">4yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 3,100</span><span class="price-note">Elegant & affordable</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Manal 8 inch High Density')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 13: Urest 2inch Camping Mattress -->
-                <div class="product-card luxury-card" data-category="mattresses">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/FoldMattress.jpeg" alt="Urest 2inch Camping Mattress" loading="lazy">
-                        <div class="product-badge portable">Portable</div>
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('urest-camping')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Urest 2inch Camping Mattress')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.2</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Specialty Mattresses</div>
-                        <h3>Urest 2inch Camping Mattress</h3>
-                        <p class="product-description">Lightweight, foldable, and perfect for travel, camping, or as an extra guest bed.</p>
-                        <div class="product-features"><span class="feature-tag">2-inch</span><span class="feature-tag">Foldable</span><span class="feature-tag">2yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 550</span><span class="price-note">On-the-go comfort</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Urest 2inch Camping Mattress')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 14: 2in1 Sofa Cum Bed -->
-                <div class="product-card luxury-card" data-category="beds">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/SofaCum.jpeg" alt="2in1 Sofa Cum Bed/ Double 6inch" loading="lazy">
-                        <div class="product-badge versatile">2-in-1</div>
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('sofa-cum-bed')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('2in1 Sofa Cum Bed')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.8</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Convertible Furniture</div>
-                        <h3>2in1 Sofa Cum Bed</h3>
-                        <p class="product-description">The ultimate space-saver: a stylish sofa that easily converts into a comfortable double bed.</p>
-                        <div class="product-features"><span class="feature-tag">Sofa & Bed</span><span class="feature-tag">Space-Saver</span><span class="feature-tag">3yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 3,100</span><span class="price-note">Smart & stylish</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('2in1 Sofa Cum Bed')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 15: Tusha high density 8inch Mattress -->
-                <div class="product-card luxury-card" data-category="mattresses">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/mattress1.jpeg" alt="Tusha high density 8inch Mattress" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('tusha-8inch')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Tusha High Density 8inch')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.1</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Value Mattresses</div>
-                        <h3>Tusha High Density 8inch</h3>
-                        <p class="product-description">An excellent value mattress offering firm, high-density support for a great night's sleep.</p>
-                        <div class="product-features"><span class="feature-tag">8-inch HD</span><span class="feature-tag">Firm Support</span><span class="feature-tag">3yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 1,250</span><span class="price-note">Excellent value</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Tusha High Density 8inch')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 16: Tusha high density 8inch 3/4 Mattress -->
-                <div class="product-card luxury-card" data-category="mattresses">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/LimeMattress.jpeg" alt="Tusha high density 8inch 3/4 Mattress" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('tusha-3quarter')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Tusha 3/4 Mattress')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.0</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Value Mattresses</div>
-                        <h3>Tusha 3/4 Mattress</h3>
-                        <p class="product-description">Compact 3/4 size high-density mattress, perfect for single sleepers or smaller rooms.</p>
-                        <div class="product-features"><span class="feature-tag">3/4 Size</span><span class="feature-tag">High-Density</span><span class="feature-tag">3yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 1,050</span><span class="price-note">Compact comfort</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Tusha 3/4 Mattress')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 17: Manal Continental Pillow Deluxe -->
-                <div class="product-card luxury-card" data-category="pillows">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Pillow4.jpeg" alt="Manal Continental Pillow" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('manal-pillow-deluxe')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Manal Continental Pillow Deluxe')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★★</div><span class="rating-text">5.0</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Premium Pillows</div>
-                        <h3>Manal Continental Pillow Deluxe</h3>
-                        <p class="product-description">Experience deluxe comfort with this premium continental pillow, designed for optimal support.</p>
-                        <div class="product-features"><span class="feature-tag">Deluxe Fill</span><span class="feature-tag">Continental</span><span class="feature-tag">2yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 250</span><span class="price-note">Luxury feel</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Manal Continental Pillow Deluxe')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 18: Medium Quality Pillows -->
-                <div class="product-card luxury-card" data-category="pillows">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Redbluepillow.jpeg" alt="Medium Quality Pillows" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('medium-quality-pillows')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Medium Quality Pillows')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★☆☆</div><span class="rating-text">3.8</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Standard Pillows</div>
-                        <h3>Medium Quality Pillows</h3>
-                        <p class="product-description">Affordable and comfortable standard pillows, available in vibrant red and blue.</p>
-                        <div class="product-features"><span class="feature-tag">Standard Size</span><span class="feature-tag">Multi-Color</span><span class="feature-tag">1yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 85</span><span class="price-note">Everyday use</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Medium Quality Pillows')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 19: Pet Bed -->
-                <div class="product-card luxury-card" data-category="accessories">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Petbed1.jpeg" alt="Pet Bed" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('pet-bed-small')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Pet Bed')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★★</div><span class="rating-text">4.9</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Pet Accessories</div>
-                        <h3>Pet Bed</h3>
-                        <p class="product-description">A cozy and comfortable bed for your furry friend, because they deserve luxury too.</p>
-                        <div class="product-features"><span class="feature-tag">Cozy Comfort</span><span class="feature-tag">Washable</span><span class="feature-tag">Durable</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 250</span><span class="price-note">For small pets</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Pet Bed')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 20: Pet Bed large -->
-                <div class="product-card luxury-card" data-category="accessories">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Petbed2.jpeg" alt="Pet Bed large" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('pet-bed-large')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Pet Bed Large')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★★</div><span class="rating-text">4.9</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Pet Accessories</div>
-                        <h3>Pet Bed Large</h3>
-                        <p class="product-description">A spacious and plush bed for larger pets, providing ample room to stretch and relax.</p>
-                        <div class="product-features"><span class="feature-tag">Large Size</span><span class="feature-tag">Plush Fabric</span><span class="feature-tag">Supportive</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 275</span><span class="price-note">For large pets</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Pet Bed Large')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 21: Pillow Top Side Table -->
-                <div class="product-card luxury-card" data-category="accessories">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/basket.jpeg" alt="Eurotop/Pillow Space Top SideTable" loading="lazy">
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('side-table')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Pillow Top Side Table')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★☆</div><span class="rating-text">4.7</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Bedroom Furniture</div>
-                        <h3>Pillow Top Side Table</h3>
-                        <p class="product-description">A unique and stylish side table featuring a cushioned top and a handy storage basket.</p>
-                        <div class="product-features"><span class="feature-tag">Pillow Top</span><span class="feature-tag">Storage</span><span class="feature-tag">Multi-use</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 580</span><span class="price-note">Stylish & functional</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Pillow Top Side Table')">Get Quote</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 22: Pillow Top Spring Set -->
-                <div class="product-card luxury-card flagship" data-category="beds">
-                    <div class="product-image">
-                        <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Bigbed.jpeg" alt="Pillow Top Spring Set" loading="lazy">
-                        <div class="product-badge flagship">Flagship</div>
-                        <div class="product-overlay">
-                            <button class="btn-view luxury-btn" onclick="openProductModal('pillow-top-spring')"><span>View Details</span><svg viewBox="0 0 24 24"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg></button>
-                            <button class="btn-quick-order" onclick="requestQuote('Pillow Top Spring Set')"><span>Quick Order</span></button>
-                        </div>
-                        <div class="product-rating"><div class="stars">★★★★★</div><span class="rating-text">5.0</span></div>
-                    </div>
-                    <div class="product-info">
-                        <div class="product-category">Flagship Collection</div>
-                        <h3>Pillow Top Spring Set</h3>
-                        <p class="product-description">Our ultimate luxury sleep experience with a premium pillow top for cloud-like comfort.</p>
-                        <div class="product-features"><span class="feature-tag">Ultra Luxury</span><span class="feature-tag">Pillow Top</span><span class="feature-tag">15yr Warranty</span></div>
-                        <div class="product-price">
-                            <div class="price-container"><span class="price">ZMW 21,500</span><span class="price-note">White-glove delivery</span></div>
-                            <button class="btn-quote luxury-btn" onclick="requestQuote('Pillow Top Spring Set')">Get Quote</button>
-                        </div>
+                    <div class="col-auto">
+                        <button class="btn filter-btn" data-filter="pillows">
+                            <i class="bi bi-circle"></i> Pillows
+                        </button>
                     </div>
                 </div>
             </div>
 
-            <div class="load-more-container">
-                <button class="btn btn-outline btn-luxury" id="load-more-btn">
-                    <span>View Complete Collection</span>
-                    <svg class="btn-arrow" viewBox="0 0 24 24">
-                        <path d="M5 12h14m-7-7l7 7-7 7" />
-                    </svg>
-                </button>
+            <div class="row g-4" id="productsGrid">
+                <div class="col-md-6 col-lg-4 product-item" data-category="mattresses">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/manallady.jpeg" alt="Manal Quilted Bases King Size" class="img-fluid">
+                            <div class="product-badge premium">Premium</div>
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <span class="ms-1">5.0</span>
+                            </div>
+                            <h5 class="product-title">Manal Quilted Bases King Size</h5>
+                            <p class="product-description">Luxurious quilted king mattress with premium comfort layers for an unparalleled sleep experience.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">King Size</span>
+                                <span class="badge bg-light text-dark">Quilted Top</span>
+                                <span class="badge bg-light text-dark">10yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 12,500</h4>
+                                    <small class="text-muted">Free delivery included</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Manal Quilted Bases King Size')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="mattresses">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Optmattress.jpeg" alt="Manal Dunlop Queen Size" class="img-fluid">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="ms-1">4.8</span>
+                            </div>
+                            <h5 class="product-title">Manal Dunlop Queen Size</h5>
+                            <p class="product-description">Natural latex comfort with superior support, offering a perfect balance for restful nights.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">Queen Size</span>
+                                <span class="badge bg-light text-dark">Natural Latex</span>
+                                <span class="badge bg-light text-dark">7yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 2,740</h4>
+                                    <small class="text-muted">Best value option</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Manal Dunlop Queen Size')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="beds">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/ManalPromo.jpeg" alt="Spring Mattress BD" class="img-fluid">
+                            <div class="product-badge new">New</div>
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <span class="ms-1">4.9</span>
+                            </div>
+                            <h5 class="product-title">Spring Mattress BD</h5>
+                            <p class="product-description">Complete luxury bed set with premium spring system for robust support and comfort.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">Complete Set</span>
+                                <span class="badge bg-light text-dark">Spring System</span>
+                                <span class="badge bg-light text-dark">8yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 13,000</h4>
+                                    <small class="text-muted">Installation included</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Spring Mattress BD')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="pillows">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Pillow2.jpeg" alt="Manal Continental Pillow" class="img-fluid">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <span class="ms-1">4.9</span>
+                            </div>
+                            <h5 class="product-title">Manal Continental Pillow</h5>
+                            <p class="product-description">High-density support for superior neck comfort and a restful night's sleep.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">Continental</span>
+                                <span class="badge bg-light text-dark">High-Density</span>
+                                <span class="badge bg-light text-dark">2yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 250</h4>
+                                    <small class="text-muted">Perfect comfort</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Manal Continental Pillow')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="beds">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/RedMattress1.1.jpeg" alt="Urest 8inch Set" class="img-fluid">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star"></i>
+                                <span class="ms-1">4.7</span>
+                            </div>
+                            <h5 class="product-title">Urest 8inch Set</h5>
+                            <p class="product-description">Complete comfort set with multiple color options to match any bedroom decor.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">8-inch</span>
+                                <span class="badge bg-light text-dark">Complete Set</span>
+                                <span class="badge bg-light text-dark">5yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 3,100</h4>
+                                    <small class="text-muted">Great value</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Urest 8inch Set')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="beds">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Urest6inch.jpeg" alt="Urest 6 inch Set" class="img-fluid">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                                <span class="ms-1">4.5</span>
+                            </div>
+                            <h5 class="product-title">Urest 6 inch Set</h5>
+                            <p class="product-description">Space-saving comfort for smaller rooms without compromising on quality.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">6-inch</span>
+                                <span class="badge bg-light text-dark">Lightweight</span>
+                                <span class="badge bg-light text-dark">3yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 2,850</h4>
+                                    <small class="text-muted">Budget friendly</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Urest 6 inch Set')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="beds">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Urestm-2.jpeg" alt="Classic comfort Double bed" class="img-fluid">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                                <span class="ms-1">4.6</span>
+                            </div>
+                            <h5 class="product-title">Classic Comfort Double Bed</h5>
+                            <p class="product-description">A timeless design offering classic comfort and durability for any bedroom.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">Double Bed</span>
+                                <span class="badge bg-light text-dark">Classic Design</span>
+                                <span class="badge bg-light text-dark">5yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 7,500</h4>
+                                    <small class="text-muted">Timeless value</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Classic Comfort Double Bed')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="beds">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/UrestKS.jpeg" alt="Urest Quilted Mattress & Bed" class="img-fluid">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                                <span class="ms-1">4.7</span>
+                            </div>
+                            <h5 class="product-title">Urest Quilted Mattress & Bed</h5>
+                            <p class="product-description">A complete king-size set featuring a beautifully quilted mattress for added comfort.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">King Size</span>
+                                <span class="badge bg-light text-dark">Quilted Set</span>
+                                <span class="badge bg-light text-dark">6yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 6,500</h4>
+                                    <small class="text-muted">Complete package</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Urest Quilted Mattress & Bed')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="beds">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/URestBlue.jpeg" alt="Urest king set" class="img-fluid">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                                <span class="ms-1">4.6</span>
+                            </div>
+                            <h5 class="product-title">Urest King Set</h5>
+                            <p class="product-description">Vibrant and comfortable king bed set available in stylish blue and green options.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">King Size</span>
+                                <span class="badge bg-light text-dark">Multi-Color</span>
+                                <span class="badge bg-light text-dark">5yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 6,500</h4>
+                                    <small class="text-muted">Modern style</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Urest King Set')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="beds">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Floral.jpeg" alt="Manal 8 inch High Density" class="img-fluid">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                                <span class="ms-1">4.4</span>
+                            </div>
+                            <h5 class="product-title">Manal 8 inch High Density</h5>
+                            <p class="product-description">A charming and durable high-density foam set with an elegant floral pattern.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">8-inch HD</span>
+                                <span class="badge bg-light text-dark">Floral Design</span>
+                                <span class="badge bg-light text-dark">4yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 3,100</h4>
+                                    <small class="text-muted">Elegant & affordable</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Manal 8 inch High Density')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="mattresses">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/FoldMattress.jpeg" alt="Urest 2inch Camping Mattress" class="img-fluid">
+                            <div class="product-badge portable">Portable</div>
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                                <span class="ms-1">4.2</span>
+                            </div>
+                            <h5 class="product-title">Urest 2inch Camping Mattress</h5>
+                            <p class="product-description">Lightweight, foldable, and perfect for travel, camping, or as an extra guest bed.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">2-inch</span>
+                                <span class="badge bg-light text-dark">Foldable</span>
+                                <span class="badge bg-light text-dark">2yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 550</h4>
+                                    <small class="text-muted">On-the-go comfort</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Urest 2inch Camping Mattress')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="beds">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/SofaCum.jpeg" alt="2in1 Sofa Cum Bed" class="img-fluid">
+                            <div class="product-badge versatile">2-in-1</div>
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                                <span class="ms-1">4.8</span>
+                            </div>
+                            <h5 class="product-title">2in1 Sofa Cum Bed</h5>
+                            <p class="product-description">The ultimate space-saver: a stylish sofa that easily converts into a comfortable double bed.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">Sofa & Bed</span>
+                                <span class="badge bg-light text-dark">Space-Saver</span>
+                                <span class="badge bg-light text-dark">3yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 3,100</h4>
+                                    <small class="text-muted">Smart & stylish</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('2in1 Sofa Cum Bed')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="mattresses">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/mattress1.jpeg" alt="Tusha high density 8inch" class="img-fluid">
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i>
+                                <span class="ms-1">4.1</span>
+                            </div>
+                            <h5 class="product-title">Tusha High Density 8inch</h5>
+                            <p class="product-description">An excellent value mattress offering firm, high-density support for a great night's sleep.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">8-inch HD</span>
+                                <span class="badge bg-light text-dark">Firm Support</span>
+                                <span class="badge bg-light text-dark">3yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 1,250</h4>
+                                    <small class="text-muted">Excellent value</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Tusha High Density 8inch')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 product-item" data-category="beds">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://chimbotwe-matresses.github.io/ChimbotweMattresses-GeneralDealers/Bigbed.jpeg" alt="Pillow Top Spring Set" class="img-fluid">
+                            <div class="product-badge flagship">Flagship</div>
+                            <div class="product-overlay">
+                                <button class="btn btn-light btn-sm" onclick="viewProduct()">
+                                    <i class="bi bi-eye"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-rating mb-2">
+                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                                <span class="ms-1">5.0</span>
+                            </div>
+                            <h5 class="product-title">Pillow Top Spring Set</h5>
+                            <p class="product-description">Our ultimate luxury sleep experience with a premium pillow top for cloud-like comfort.</p>
+                            <div class="product-features mb-3">
+                                <span class="badge bg-light text-dark">Ultra Luxury</span>
+                                <span class="badge bg-light text-dark">Pillow Top</span>
+                                <span class="badge bg-light text-dark">15yr Warranty</span>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="price">
+                                    <h4 class="mb-0">ZMW 21,500</h4>
+                                    <small class="text-muted">White-glove delivery</small>
+                                </div>
+                                <button class="btn luxury-btn-primary btn-sm" onclick="requestQuote('Pillow Top Spring Set')">
+                                    <i class="bi bi-cart-plus"></i> Get Quote
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Enhanced About Section -->
     <section id="about" class="about-section">
         <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <div class="section-badge">
-                        <span class="badge-icon">🏆</span>
-                        <span>Our Story</span>
-                    </div>
-                    <h2>Crafting Dreams, Delivering Excellence</h2>
-                    <p class="about-intro">
-                        For years, Chembotwe has been the trusted choice for discerning customers seeking the finest in sleep comfort.
-                        Our commitment to excellence has made us Lusaka's premier destination for luxury mattresses and bedroom furniture.
-                    </p>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="luxury-badge mb-3">
+                            <i class="bi bi-trophy"></i>
+                            <span>Our Story</span>
+                        </div>
+                        <h2 class="mb-4">Crafting Dreams, Delivering Excellence</h2>
+                        <p class="mb-4">For years, Chimbotwe has been the trusted choice for discerning customers seeking the finest in sleep comfort. Our commitment to excellence has made us Lusaka's premier destination for luxury mattresses and bedroom furniture.</p>
 
+                        <div class="row about-stats">
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="stat-item text-center">
+                                    <i class="bi bi-people stat-icon"></i>
+                                    <h3>1000+</h3>
+                                    <small>Happy Customers</small>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="stat-item text-center">
+                                    <i class="bi bi-collection stat-icon"></i>
+                                    <h3>50+</h3>
+                                    <small>Premium Products</small>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="stat-item text-center">
+                                    <i class="bi bi-calendar stat-icon"></i>
+                                    <h3>5+</h3>
+                                    <small>Years Excellence</small>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 mb-3">
+                                <div class="stat-item text-center">
+                                    <i class="bi bi-star stat-icon"></i>
+                                    <h3>98%</h3>
+                                    <small>Satisfaction</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
                     <div class="about-features">
-                        <div class="about-feature">
-                            <div class="feature-icon">💎</div>
-                            <div class="feature-content">
-                                <h3>Uncompromising Quality</h3>
-                                <p>Every product undergoes rigorous selection to ensure it meets our exacting standards for comfort, durability, and craftsmanship.</p>
+                        <div class="feature-item mb-4">
+                            <div class="feature-icon">
+                                <i class="bi bi-house-heart"></i>
                             </div>
-                        </div>
-                        <div class="about-feature">
-                            <div class="feature-icon">🎯</div>
                             <div class="feature-content">
-                                <h3>Expert Consultation</h3>
-                                <p>Our sleep specialists provide personalized guidance to help you find the perfect sleep solution for your unique needs.</p>
-                            </div>
-                        </div>
-                        <div class="about-feature">
-                            <div class="feature-icon">🏠</div>
-                            <div class="feature-content">
-                                <h3>Local Excellence</h3>
+                                <h5>Local Excellence</h5>
                                 <p>Proudly serving the Lusaka community with exceptional service, local expertise, and genuine care for our customers.</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <div class="stat-icon">👥</div>
-                        <span class="stat-number" data-count="1000">1000+</span>
-                        <span class="stat-label">Happy Customers</span>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-icon">🛏️</div>
-                        <span class="stat-number" data-count="50">50+</span>
-                        <span class="stat-label">Premium Products</span>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-icon">📅</div>
-                        <span class="stat-number" data-count="5">5+</span>
-                        <span class="stat-label">Years Excellence</span>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-icon">⭐</div>
-                        <span class="stat-number" data-count="98">98%</span>
-                        <span class="stat-label">Satisfaction</span>
+                        <div class="feature-item mb-4">
+                            <div class="feature-icon">
+                                <i class="bi bi-gem"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Uncompromising Quality</h5>
+                                <p>Every product undergoes rigorous selection to ensure it meets our exacting standards for comfort, durability, and craftsmanship.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="bi bi-bullseye"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h5>Expert Consultation</h5>
+                                <p>Our sleep specialists provide personalized guidance to help you find the perfect sleep solution for your unique needs.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Customer Testimonials -->
     <section id="testimonials" class="testimonials-section">
         <div class="container">
-            <div class="section-header">
-                <div class="section-badge">
-                    <span class="badge-icon">💬</span>
+            <div class="text-center mb-5">
+                <div class="luxury-badge mb-3">
+                    <i class="bi bi-chat-quote"></i>
                     <span>Testimonials</span>
                 </div>
-                <h2>What Our Customers Say</h2>
-                <p>Real experiences from satisfied customers who transformed their sleep with Chembotwe</p>
+                <h2 class="mb-3">What Our Customers Say</h2>
+                <p>Real experiences from satisfied customers who transformed their sleep with Chimbotwe</p>
             </div>
 
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">
-                        <div class="stars">★★★★★</div>
-                    </div>
-                    <blockquote>
-                        "Absolutely exceptional service! The mattress quality is outstanding and the delivery was professional. Best sleep I've had in years."
-                    </blockquote>
-                    <div class="testimonial-author">
-                        <div class="author-info">
-                            <h4>Sarah M.</h4>
-                            <span>Lusaka Customer</span>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <blockquote class="mb-3">
+                            "Absolutely exceptional service! The mattress quality is outstanding and the delivery was professional. Best sleep I've had in years."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <h6 class="mb-0">Sarah M.</h6>
+                            <small class="text-muted">Lusaka Customer</small>
                         </div>
                     </div>
                 </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">
-                        <div class="stars">★★★★★</div>
-                    </div>
-                    <blockquote>
-                        "The team went above and beyond to help us find the perfect bed set. Quality is exceptional and the price was very reasonable."
-                    </blockquote>
-                    <div class="testimonial-author">
-                        <div class="author-info">
-                            <h4>James K.</h4>
-                            <span>Verified Purchase</span>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <blockquote class="mb-3">
+                            "The team went above and beyond to help us find the perfect bed set. Quality is exceptional and the price was very reasonable."
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <h6 class="mb-0">James K.</h6>
+                            <small class="text-muted">Verified Purchase</small>
                         </div>
                     </div>
                 </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-rating">
-                        <div class="stars">★★★★★</div>
-                    </div>
-                    <blockquote>
-                        "Professional, reliable, and the mattress quality is simply amazing. Chembotwe is definitely the best in Lusaka!"
-                    </blockquote>
-                    <div class="testimonial-author">
-                        <div class="author-info">
-                            <h4>Grace L.</h4>
-                            <span>Repeat Customer</span>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating mb-3">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <blockquote class="mb-3">
+                            "Professional, reliable, and the mattress quality is simply amazing. Chimbotwe is definitely the best in Lusaka!"
+                        </blockquote>
+                        <div class="testimonial-author">
+                            <h6 class="mb-0">Grace L.</h6>
+                            <small class="text-muted">Repeat Customer</small>
                         </div>
                     </div>
                 </div>
@@ -930,149 +899,156 @@
         </div>
     </section>
 
-    <!-- Enhanced Benefits Section -->
     <section class="benefits-section">
         <div class="container">
-            <div class="section-header">
-                <div class="section-badge">
-                    <span class="badge-icon">⭐</span>
+            <div class="text-center mb-5">
+                <div class="luxury-badge mb-3">
+                    <i class="bi bi-star"></i>
                     <span>Why Choose Us</span>
                 </div>
-                <h2>The Chembotwe Advantage</h2>
+                <h2 class="mb-3">The Chimbotwe Advantage</h2>
                 <p>Experience the difference that sets us apart from the rest</p>
             </div>
 
-            <div class="benefits-grid">
-                <div class="benefit-card luxury-benefit">
-                    <div class="benefit-icon">🛡️</div>
-                    <h3>Lifetime Warranty Protection</h3>
-                    <p>Comprehensive warranty coverage on all premium mattresses with dedicated customer support for complete peace of mind.</p>
-                    <div class="benefit-features">
-                        <span class="feature-check">✓ Comprehensive coverage</span>
-                        <span class="feature-check">✓ 24/7 support line</span>
-                        <span class="feature-check">✓ Hassle-free claims</span>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="bi bi-shield-check"></i>
+                        </div>
+                        <h5>Lifetime Warranty</h5>
+                        <p>Comprehensive warranty coverage on all premium mattresses with dedicated customer support.</p>
                     </div>
                 </div>
-
-                <div class="benefit-card luxury-benefit">
-                    <div class="benefit-icon">🚚</div>
-                    <h3>White-Glove Delivery Service</h3>
-                    <p>Premium delivery experience with professional setup, old mattress removal, and satisfaction guarantee throughout Lusaka.</p>
-                    <div class="benefit-features">
-                        <span class="feature-check">✓ Free delivery & setup</span>
-                        <span class="feature-check">✓ Old mattress removal</span>
-                        <span class="feature-check">✓ Professional handling</span>
+                <div class="col-md-6 col-lg-3">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="bi bi-truck"></i>
+                        </div>
+                        <h5>White-Glove Delivery</h5>
+                        <p>Premium delivery experience with professional setup and old mattress removal throughout Lusaka.</p>
                     </div>
                 </div>
-
-                <div class="benefit-card luxury-benefit">
-                    <div class="benefit-icon">💳</div>
-                    <h3>Flexible Payment Solutions</h3>
-                    <p>Multiple payment options including installment plans, mobile money, and cash with transparent pricing and no hidden fees.</p>
-                    <div class="benefit-features">
-                        <span class="feature-check">✓ Installment plans</span>
-                        <span class="feature-check">✓ Mobile money accepted</span>
-                        <span class="feature-check">✓ Transparent pricing</span>
+                <div class="col-md-6 col-lg-3">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="bi bi-credit-card"></i>
+                        </div>
+                        <h5>Flexible Payment</h5>
+                        <p>Multiple payment options including installment plans, mobile money, and transparent pricing.</p>
                     </div>
                 </div>
-
-                <div class="benefit-card luxury-benefit">
-                    <div class="benefit-icon">🏠</div>
-                    <h3>Luxury Showroom Experience</h3>
-                    <p>Visit our premium showroom in Bauleni to experience our products firsthand with expert consultation and personalized recommendations.</p>
-                    <div class="benefit-features">
-                        <span class="feature-check">✓ Try before you buy</span>
-                        <span class="feature-check">✓ Expert consultation</span>
-                        <span class="feature-check">✓ Comfortable environment</span>
+                <div class="col-md-6 col-lg-3">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="bi bi-house"></i>
+                        </div>
+                        <h5>Luxury Showroom</h5>
+                        <p>Visit our premium showroom in Bauleni to experience our products firsthand with expert consultation.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Enhanced Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="section-badge">
-                        <span class="badge-icon">📞</span>
-                        <span>Get In Touch</span>
-                    </div>
-                    <h2>Ready to Transform Your Sleep?</h2>
-                    <p class="contact-intro">Our sleep specialists are standing by to help you find the perfect solution for your comfort needs. Experience the Chembotwe difference today.</p>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <div class="luxury-badge mb-3">
+                            <i class="bi bi-telephone"></i>
+                            <span>Get In Touch</span>
+                        </div>
+                        <h2 class="mb-4">Ready to Transform Your Sleep?</h2>
+                        <p class="mb-4">Our sleep specialists are standing by to help you find the perfect solution for your comfort needs. Experience the Chimbotwe difference today.</p>
 
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">📞</div>
-                            <div class="contact-text">
-                                <strong>Phone &amp; WhatsApp</strong>
-                                <p><a href="tel:+260966100125">+260 966 100 125</a></p>
-                                <span class="contact-note">Available 7 days a week</span>
+                        <div class="contact-details">
+                            <div class="contact-item mb-3">
+                                <div class="contact-icon">
+                                    <i class="bi bi-telephone-fill"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h6>Phone & WhatsApp</h6>
+                                    <p><a href="tel:+260966100125">+260 966 100 125</a></p>
+                                    <small class="text-muted">Available 7 days a week</small>
+                                </div>
+                            </div>
+                            <div class="contact-item mb-3">
+                                <div class="contact-icon">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h6>Showroom Location</h6>
+                                    <p>Bauleni, Lusaka, Zambia</p>
+                                    <small class="text-muted">Easy parking available</small>
+                                </div>
+                            </div>
+                            <div class="contact-item mb-4">
+                                <div class="contact-icon">
+                                    <i class="bi bi-clock"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h6>Business Hours</h6>
+                                    <p>Monday - Sunday: 8:00 AM - 6:00 PM</p>
+                                    <small class="text-muted">Extended hours by appointment</small>
+                                </div>
                             </div>
                         </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">📍</div>
-                            <div class="contact-text">
-                                <strong>Showroom Location</strong>
-                                <p>Bauleni, Lusaka, Zambia</p>
-                                <span class="contact-note">Easy parking available</span>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">🕒</div>
-                            <div class="contact-text">
-                                <strong>Business Hours</strong>
-                                <p>Monday - Sunday: 8:00 AM - 6:00 PM</p>
-                                <span class="contact-note">Extended hours by appointment</span>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="payment-methods">
-                        <h3>Accepted Payment Methods</h3>
-                        <div class="payment-grid">
-                            <div class="payment-option">
-                                <div class="payment-icon">💵</div>
-                                <span>Cash Payments</span>
-                            </div>
-                            <div class="payment-option">
-                                <div class="payment-icon">📱</div>
-                                <span>Mobile Money</span>
-                            </div>
-                            <div class="payment-option">
-                                <div class="payment-icon">💳</div>
-                                <span>Bank Transfers</span>
-                            </div>
-                            <div class="payment-option">
-                                <div class="payment-icon">📊</div>
-                                <span>Installment Plans</span>
+                        <div class="payment-methods">
+                            <h6 class="mb-3">Accepted Payment Methods</h6>
+                            <div class="row g-2">
+                                <div class="col-6">
+                                    <div class="payment-option">
+                                        <i class="bi bi-cash"></i>
+                                        <span>Cash</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="payment-option">
+                                        <i class="bi bi-phone"></i>
+                                        <span>Mobile Money</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="payment-option">
+                                        <i class="bi bi-bank"></i>
+                                        <span>Bank Transfer</span>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="payment-option">
+                                        <i class="bi bi-credit-card"></i>
+                                        <span>Installments</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="contact-form-container">
-                    <form class="contact-form luxury-form" id="contact-form">
-                        <div class="form-header">
-                            <h3>Request Premium Consultation</h3>
+                <div class="col-lg-6">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-header mb-4">
+                            <h4>Request Premium Consultation</h4>
                             <p>Get personalized recommendations from our sleep experts</p>
                         </div>
 
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="name">Full Name</label>
-                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" required>
                             </div>
-                            <div class="form-group">
-                                <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" placeholder="+260 XXX XXX XXX" required>
+                            <div class="col-md-6 mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" required>
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label for="product">Product Interest</label>
-                            <select id="product" name="product" required>
+                        <div class="mb-3">
+                            <label for="product" class="form-label">Product Interest</label>
+                            <select class="form-select" id="product" required>
                                 <option value="">Select your area of interest</option>
                                 <option value="mattresses">Premium Mattresses</option>
                                 <option value="beds">Luxury Bed Sets</option>
@@ -1082,9 +1058,9 @@
                             </select>
                         </div>
 
-                        <div class="form-group">
-                            <label for="budget">Budget Range (Optional)</label>
-                            <select id="budget" name="budget">
+                        <div class="mb-3">
+                            <label for="budget" class="form-label">Budget Range (Optional)</label>
+                            <select class="form-select" id="budget">
                                 <option value="">Select budget range</option>
                                 <option value="under-2000">Under ZMW 2,000</option>
                                 <option value="2000-5000">ZMW 2,000 - 5,000</option>
@@ -1094,25 +1070,24 @@
                             </select>
                         </div>
 
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Tell us about your specific requirements, preferred delivery time, or any questions..." rows="4"></textarea>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Tell us about your specific requirements..."></textarea>
                         </div>
 
-                        <div class="form-checkbox">
-                            <input type="checkbox" id="newsletter" name="newsletter">
-                            <label for="newsletter">Subscribe to exclusive offers and sleep tips</label>
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" id="newsletter">
+                            <label class="form-check-label" for="newsletter">
+                                Subscribe to exclusive offers and sleep tips
+                            </label>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-luxury form-submit">
-                            <span>Send Consultation Request</span>
-                            <svg class="btn-arrow" viewBox="0 0 24 24">
-                                <path d="M5 12h14m-7-7l7 7-7 7" />
-                            </svg>
+                        <button type="submit" class="btn luxury-btn-primary w-100">
+                            <i class="bi bi-send"></i> Send Consultation Request
                         </button>
 
-                        <p class="form-note">
-                            <span class="privacy-icon">🔒</span>
+                        <p class="form-note mt-3 text-center">
+                            <i class="bi bi-lock"></i>
                             Your information is secure and will never be shared with third parties
                         </p>
                     </form>
@@ -1121,127 +1096,104 @@
         </div>
     </section>
 
-    <!-- Enhanced Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">
-                        <div class="logo-icon">
-                            <img src="logo.jpeg" alt="Chembotwe Logo" style="height: 50px; width: auto; border-radius: 50%;">
-                        </div>
-                        <div class="brand-text">
-                            <h3>Chembotwe</h3>
-                            <span>Mattresses &amp; General Dealers</span>
-                        </div>
-                    </div>
-                    <p>Lusaka's premier destination for luxury sleep solutions. Where comfort meets elegance, and dreams become reality.</p>
-                    <div class="footer-social">
-                        <a href="https://wa.me/260966100125" class="social-link" aria-label="WhatsApp">
-                            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.89 3.403" /></svg>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand">
+                        <a class="luxury-brand mb-3" href="#home">
+                            <img src="logo.jpeg" alt="Chimbotwe Logo" class="brand-logo">
+                            <div class="brand-text">
+                                <h5 class="mb-0 text-white">Chimbotwe</h5>
+                                <small class="text-secondary">Mattresses & General Dealers</small>
+                            </div>
                         </a>
-                        <a href="tel:+260966100125" class="social-link" aria-label="Phone">
-                            <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
-                        </a>
+                        <p class="mb-3">Lusaka's premier destination for luxury sleep solutions. Where comfort meets elegance, and dreams become reality.</p>
+                        <div class="footer-social">
+                            <a href="https://wa.me/260966100125" class="social-link" aria-label="WhatsApp">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                            <a href="tel:+260966100125" class="social-link" aria-label="Phone">
+                                <i class="bi bi-telephone"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Products</h4>
-                        <ul>
-                            <li><a href="#mattresses">Premium Mattresses</a></li>
-                            <li><a href="#beds">Luxury Bed Sets</a></li>
-                            <li><a href="#pillows">Designer Pillows</a></li>
-                            <li><a href="#accessories">Sleep Accessories</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Services</h4>
-                        <ul>
-                            <li><a href="#delivery">White-Glove Delivery</a></li>
-                            <li><a href="#warranty">Lifetime Warranty</a></li>
-                            <li><a href="#installation">Professional Setup</a></li>
-                            <li><a href="#consultation">Sleep Consultation</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Customer Care</h4>
-                        <ul>
-                            <li><a href="tel:+260966100125">+260 966 100 125</a></li>
-                            <li>Bauleni, Lusaka</li>
-                            <li>Mon-Sun: 8AM-6PM</li>
-                            <li><a href="#contact">Schedule Visit</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Company</h4>
-                        <ul>
-                            <li><a href="#about">About Chembotwe</a></li>
-                            <li><a href="#testimonials">Customer Reviews</a></li>
-                            <li><a href="#contact">Contact Us</a></li>
-                            <li><a href="#careers">Careers</a></li>
-                        </ul>
-                    </div>
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="footer-title">Products</h6>
+                    <ul class="footer-links">
+                        <li><a href="#products">Premium Mattresses</a></li>
+                        <li><a href="#products">Luxury Bed Sets</a></li>
+                        <li><a href="#products">Designer Pillows</a></li>
+                        <li><a href="#products">Sleep Accessories</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="footer-title">Services</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home">White-Glove Delivery</a></li>
+                        <li><a href="#home">Lifetime Warranty</a></li>
+                        <li><a href="#contact">Professional Setup</a></li>
+                        <li><a href="#contact">Sleep Consultation</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="footer-title">Customer Care</h6>
+                    <ul class="footer-links">
+                        <li><a href="tel:+260966100125">+260 966 100 125</a></li>
+                        <li><a href="#contact">Bauleni, Lusaka</a></li>
+                        <li><a href="#contact">Mon-Sun: 8AM-6PM</a></li>
+                        <li><a href="#contact">Schedule Visit</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-6">
+                    <h6 class="footer-title">Company</h6>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Chimbotwe</a></li>
+                        <li><a href="#testimonials">Customer Reviews</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
                 </div>
             </div>
 
             <div class="footer-bottom">
-                <div class="footer-bottom-content">
-                    <p>&copy; 2025 Chembotwe Mattresses &amp; General Dealers. All rights reserved.</p>
-                    <div class="footer-certifications">
-                        <span class="certification">🏆 Premium Quality Certified</span>
-                        <span class="certification">🛡️ Warranty Protected</span>
-                        <span class="certification">⭐ 5-Star Rated</span>
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0">&copy; 2025 Chimbotwe Mattresses & General Dealers. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <div class="footer-certifications">
+                            <span class="certification"><i class="bi bi-trophy"></i> Premium Quality</span>
+                            <span class="certification"><i class="bi bi-shield-check"></i> Warranty Protected</span>
+                            <span class="certification"><i class="bi bi-star"></i> 5-Star Rated</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Enhanced Product Modal -->
-    <div class="modal luxury-modal" id="product-modal">
-        <div class="modal-backdrop" onclick="closeModal()"></div>
-        <div class="modal-content">
-            <button class="modal-close" onclick="closeModal()" aria-label="Close modal">
-                <svg viewBox="0 0 24 24">
-                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                </svg>
-            </button>
-            <div class="modal-body" id="modal-body">
-                <!-- Modal content will be populated by JavaScript -->
-            </div>
-        </div>
-    </div>
-
-    <!-- Floating Action Buttons -->
     <div class="floating-actions">
         <a href="https://wa.me/260966100125" class="whatsapp-float" target="_blank" rel="noopener">
-            <div class="float-icon">
-                <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.89 3.403" /></svg>
-            </div>
-            <span class="float-text">WhatsApp</span>
-            <div class="float-tooltip">Chat with our sleep experts</div>
+            <i class="bi bi-whatsapp"></i>
+            <span class="float-tooltip">Chat with our sleep experts</span>
         </a>
-
         <button class="call-float" onclick="window.location.href='tel:+260966100125'">
-            <div class="float-icon">
-                <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
-            </div>
-            <span class="float-text">Call</span>
-            <div class="float-tooltip">Speak to our team directly</div>
+            <i class="bi bi-telephone"></i>
+            <span class="float-tooltip">Call us directly</span>
         </button>
     </div>
 
-    <!-- Back to Top Button -->
-    <button class="back-to-top" id="back-to-top" onclick="scrollToTop()" aria-label="Back to top">
-        <svg viewBox="0 0 24 24">
-            <path d="M7 14l5-5 5 5z" />
-        </svg>
+    <button class="back-to-top" id="backToTop">
+        <i class="bi bi-chevron-up"></i>
     </button>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="index.js"></script>
-    <script src="premium-animations.js"></script>
 </body>
 </html>
