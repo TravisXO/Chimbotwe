@@ -360,7 +360,7 @@ class ChembotweAnimationEngine {
         let ticking = false;
 
         const updateParallax = () => {
-            const scrollTop = window.pageYOffset;
+            const scrollTop = window.scrollY;
 
             parallaxElements.forEach(element => {
                 const speed = parseFloat(element.dataset.parallax) || 0.5;
